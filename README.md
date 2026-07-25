@@ -14,13 +14,10 @@ An open-source, high-speed chunk-compression dynamic library tailored for embedd
 
 ```text
 IDOFastlzKit_SDK/
-├── include/
-│   └── IDOFastlzKit.h      # Public SDK API Declarations & Buffer Macros
-├── lib/
-│   └── IDOFastlzKit.lib    # MSVC Import/Link-time Object Library
-├── bin/
-│   └── IDOFastlzKit.dll    # Win32 Dynamic Link Run-time Core
-└── README.md               # Integration & Compilation Blueprint
+│    IDOFastlzKit.h      # Public API Header
+│    IDOFastlzKit.lib    # MSVC Import Library
+│    IDOFastlzKit.dll    # Dynamic Link Library
+└── README.txt             # Integration & Compilation Blueprint
 ```
 
 ---
