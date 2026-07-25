@@ -7,19 +7,6 @@
 An open-source, high-speed chunk-compression dynamic library tailored for embedded binary assets, proprietary firmware streaming pipelines, and **VeryFit `.iwf / .iwf.lz` watch face container packaging**. 
 
 `IDOFastlzKit` decouples IDO's custom block-based compression algorithms—originally locked inside native compiler asset tools—into a universal, modular SDK for standalone C/C++ desktop integration.
-
----
-
-## 📦 Package Distribution Structure
-
-```text
-IDOFastlzKit_SDK/
-│    IDOFastlzKit.h      # Public API Header
-│    IDOFastlzKit.lib    # MSVC Import Library
-│    IDOFastlzKit.dll    # Dynamic Link Library
-└── README.txt             # Integration & Compilation Blueprint
-```
-
 ---
 
 ## 🛠️ Integration Architecture
